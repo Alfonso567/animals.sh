@@ -1,13 +1,13 @@
 # README for Animals Script
 
 ## Author Information
-- **Name:** [Your Full Name]
-- **Course:** [Course Number and Name]
+- **Name:** Alfonso Lopez
+- **Course:** CPSC 298
 - **Assignment:** Animals Script – Case Statement
-- **Date:** [Date of Completion]
+- **Date:** 10/26/2025
 
 ## Program Description
-[Write 2-3 sentences in your own words describing what this script does and its purpose. Explain how it classifies animals and how the program continues to run until the user types "Goodbye".]
+the code checks wheather the input is either a dog or a cat, once matches with either it outputs a phrase, if the animal in neither it says uknown animal
 
 ## Animal Classification Rules
 This script determines the type of animal according to the following logic:
