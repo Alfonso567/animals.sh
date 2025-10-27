@@ -6,16 +6,16 @@
 read -r -p "Enter an animal (in ALL CAPS): " animal
 
 case $animal in
-  DOG) echo "Woof! Loyal and friendly." ;;
-  CAT) echo "Meow! Independent and curious." ;;
-  *) echo "Unknown animal." ;;
+  DOG) echo "Woof! your loyal and friendly companion." ;;
+  CAT) echo "Meow! your sassy independent and curious housekeeper." ;;
+  *) echo "wild animal." ;;
 esac
 
 while [ "$animal" != "Goodbye" ]; do
   read -r -p "Enter an animal (in ALL CAPS): " animal
   case $animal in
-    DOG) echo "Woof! Loyal and friendly." ;;
-    CAT) echo "Meow! Independent and curious." ;;
-    *) echo "Unknown animal." ;;
+    DOG) echo "Woof! friendly companion" ;;
+    CAT) echo "Meow! your sassy independent and curious housekeeper." ;;
+    *) echo "wild animal." ;;
   esac
 done
